@@ -8,12 +8,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
   <style>
+    a
+    {
+      text-decoration: none;
+    }
     header {
       background-color: bisque;
       color: black;
+      text-align: center;
     }
 
-    #navLink,
+    /* #navLink ,
     #home,
     #techTrack,
     #eduction,
@@ -21,6 +26,42 @@
     #aboutMe {
       text-transform: uppercase;
       text-decoration: none;
+    } */
+    header
+    {
+      color: orange;
+      background-color: azure;
+      text-align: center;
+      
+    }
+    /* .navLink a
+    {
+      
+      text-transform: uppercase;
+      text-decoration: none;
+    } */
+    .headerContent
+    {
+      margin-right: 30px;
+      text-align: center;
+    }
+    .footerContent a
+    {
+      margin-right: 20px;
+    }
+    nav ul li
+    {
+      display: inline-block;
+      margin-right: 10px;
+      /* width: 100px; */
+      text-transform: uppercase;
+      text-align: center;
+    }
+    ul li
+    {
+      display: inline-block;
+      margin-right: 10px;
+      /* width: 100px; */
     }
   </style>
 
@@ -28,35 +69,48 @@
 
 <body>
   <header>
-    <i class="fa fa-user" aria-hidden="true"></i><span>Uday Wankhede</span> &nbsp;&nbsp;&nbsp;
-    <i class="fa fa-phone-square" aria-hidden="true"></i><span>9895625263</span>&nbsp;&nbsp;&nbsp;
-    <i class="fa fa-envelope" aria-hidden="true"></i><span>Udaywankhed@gmail.com</span>
-    &nbsp;&nbsp;&nbsp;&nbsp;
+    <i class="fa fa-user" aria-hidden="true"></i><span class="headerContent">Uday Wankhede</span>
+    <i class="fa fa-phone-square" aria-hidden="true"></i><span class="headerContent">9895625263</span>
+    <i class="fa fa-envelope" aria-hidden="true"></i><span class="headerContent">Udaywankhed@gmail.com</span>
     <a href="assests/Uday WankhedeC++,JAva.pdf" download><button type="button">Resume</button></a>
   </header>
   <br />
-  <nav id="navLink">
+
+
+  <!-- <nav class="navLink"> -->
     <!--The <nav> tag defines a set of navigation links-->
-    <a href="home.html" target="myFrame" id="home">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="techStack.html" target="myFrame" id="techTrack">techTRACK</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="eductions.html" target="myFrame" id="eduction">edUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="projectDetails.html" target="myFrame" id="project">PRojECT</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="aboutMe.html" target="myFrame" id="aboutMe">ABOUT me</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <!-- <a href="home.html" target="myFrame" id="home">HOME</a>
+    <a href="techStack.html" target="myFrame" id="techTrack">techTRACK</a>
+    <a href="eductions.html" target="myFrame" id="eduction">edUCATION</a>
+    <a href="projectDetails.html" target="myFrame" id="project">PRojECT</a>
+    <a href="aboutMe.html" target="myFrame" id="aboutMe">ABOUT me</a> -->
+<nav>
+      <ul>
+        <li><a href="home.html" target="myFrame" id="home">HOME</li>
+        <li><a href="techStack.html" target="myFrame" id="techTrack">techTRACK</a></li>
+        <li><a href="eductions.html" target="myFrame" id="eduction">edUCATION</a></li>
+        <li><a href="projectDetails.html" target="myFrame" id="project">PRojECT</a></li>
+        <li><a href="aboutMe.html" target="myFrame" id="aboutMe">ABOUT me</a></li>
+      </ul>
   </nav>
   <br />
 
-  <iframe width="600px" height="600px" src="home.html" name="myFrame"></iframe>
+  <iframe width="500px" height="500px" src="home.html" name="myFrame"></iframe>
   <br />
-  <footer>
-    <span>Follow me</span> &nbsp; &nbsp; &nbsp;
-    <a href="https://github.com/UdayWankhedede"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>
-    &nbsp; &nbsp; &nbsp;
-    <a href="https://www.linkedin.com/feed/"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>&nbsp;
-    &nbsp;
-    &nbsp;
+  <footer class="footerContent">
+    <!-- <span>Follow me</span> -->
+    <ul>
+      <li><span>Follow me</span></li>
+      <li><a href="https://github.com/UdayWankhedede"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a></li>
+      <li> <a href="https://www.linkedin.com/feed/"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.instagram.com/"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a></li>
+      <li<a href="https://www.facebook.com/"><i class="fa fa-2x fa-facebook-square " aria-hidden="true"></i></a></li>
+    </ul>
+    <!-- <a href="https://github.com/UdayWankhedede"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com/feed/"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
     <a href="https://www.instagram.com/"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>
-    &nbsp; &nbsp; &nbsp;
-    <a href="https://www.facebook.com/"><i class="fa fa-2x fa-facebook-square " aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/"><i class="fa fa-2x fa-facebook-square " aria-hidden="true"></i></a> -->
+    
     <p>
       Copyright &copy; 2023 Zoom Video Communications, Inc. All rights
       reserved.
