@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Technology Stack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
     <!--Style tag is used to write css code-->
     <style>
         #techstack {
-            background-color: aquamarine;
-            color: brown;
+            font-family: 'Poppins', sans-serif;
+            color: #373223;
+      background-color: #F3ECE4;
             word-spacing: 5px;
             letter-spacing: 1px;
             text-shadow: 1px 1px 2px rgb(11, 11, 11)
@@ -19,9 +23,13 @@
         tr,
         th,
         td {
-            border: 2px solid rgb(56, 224, 26);
+            border: 2px solid #373223;
             border-collapse: collapse;
             /* if we remove this the we see two border--> */
+        }
+        .data td
+        {
+            font-family: 'Signika Negative', sans-serif;
         }
     </style>
 </head>
@@ -38,22 +46,22 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
+            <tr class="data">
                 <td>1</td>
                 <td>HTML</td>
                 <td>4</td>
             </tr>
-            <tr>
+            <tr class="data">
                 <td>2</td>
                 <td>CSS</td>
                 <td>4</td>
             </tr>
-            <tr>
+            <tr class="data">
                 <td>3</td>
                 <td>JavaScript</td>
                 <td>4</td>
             </tr>
-            <tr>
+            <tr class="data">
                 <td>4</td>
                 <td>Angular</td>
                 <td>3</td>
