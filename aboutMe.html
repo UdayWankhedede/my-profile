@@ -2,22 +2,21 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Details</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet" />
     <!--Style tag is used to write css code-->
     <style>
         #heading1 {
-            font-family: 'Poppins', sans-serif;
+            font-family: "Poppins", sans-serif;
             color: #373223;
-      background-color: #F3ECE4;
+            background-color: #f3ece4;
             word-spacing: 5px;
             letter-spacing: 1px;
             text-shadow: 1px 1px 2px rgb(11, 11, 11);
-            
         }
 
         table,
@@ -25,42 +24,54 @@
         th,
         td {
             color: #373223;
-      background-color: #F3ECE4;
             border-collapse: collapse;
-            font-family: 'Signika Negative', sans-serif;
+            font-family: "Signika Negative", sans-serif;
             border: 2px solid #373223;
         }
-        .techContent li
-        {
+
+        .techContent li {
             margin-bottom: 10px;
+        }
+
+        tbody tr:hover {
+            color: rgb(87, 42, 9);
+            background-color: #f3ece4;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f3ece4;
         }
     </style>
 </head>
 
 <body>
-    <h2 id="heading1"> My Personal Details </h2>
-    <img src="assests/Profile.png" width="150px" height="150px" alt="Profile Photo">
-    <p> <strong> Name :</strong> Mohit Sharma</p>
+    <h2 id="heading1">My Personal Details</h2>
+    <img src="assests/Profile.png" width="150px" height="150px" alt="Profile Photo" />
+    <p><strong> Name :</strong> Mohit Sharma</p>
     <h2 id="heading1">Contact Details</h2>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;<strong> Mobile : </strong> 123456 6904 25412</p>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;<strong> Email : </strong> mohit.sharma@gmail.com</p>
-    <hr>
-    <h2 id="heading1"> My Technology Stack </h2>
+    <p><strong> Mobile : </strong> 123456 6904 25412</p>
+    <p>
+        <strong> Email : </strong> mohit.sharma@gmail.com
+    </p>
+    <hr />
+    <h2 id="heading1">My Technology Stack</h2>
     <ul class="techContent">
         <li>HTML 5</li>
         <li>CSS</li>
         <li>JavaScript</li>
         <li>Angular</li>
     </ul>
-    <hr>
-    <h2 id="heading1"> Academic Details</h2>
+    <hr />
+    <h2 id="heading1">Academic Details</h2>
+
+    <!--Table-->
     <table>
         <thead>
             <tr>
-                <th> Sr.No </th>
-                <th> Academic </th>
-                <th> College Name </th>
-                <th> Unversity / Board</th>
+                <th>Sr.No</th>
+                <th>Academic</th>
+                <th>College Name</th>
+                <th>Unversity / Board</th>
             </tr>
         </thead>
         <tbody>
@@ -83,10 +94,16 @@
                 <td>Indus International School</td>
                 <td>Maharashtra Divisional Board</td>
             </tr>
+            <tr>
+                <td>4</td>
+                <td>6th</td>
+                <td>Indus International School</td>
+                <td>Maharashtra Divisional Board</td>
+            </tr>
+        </tbody>
     </table>
 
-    <br>
-
+    <br />
 </body>
 
 </html>
