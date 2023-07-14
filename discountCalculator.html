@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discount Calculator</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Poppins:ital@1&family=Signika+Negative&family=Sofia&display=swap" rel="stylesheet">
+  <style>
+    button :hover{
+      color: burlywood;
+      background-color: #4caf50;
+    }
+    .button
+    {
+      color: burlywood;
+      background-color: #4caf50;
+      width: 210px;
+      border-radius: 5px;
+    }
+    .inputFrame
+    {
+      width: 200px;
+      border-radius: 5px;
+    }
+    h2,span,tr
+    {
+      color: cadetblue;
+      font-family: 'Handlee', cursive;
+    }
+  </style>
+
+  <body>
+    <!-- <a href="discountCalculator" target="_blank">Discount Calculator</a> -->
+    <!-- <iframe width="500px" height="500px"></iframe> -->
+    <h2>Discount Calculator</h2>
+    <span >Entre the Bill amount and discount in percentage</span>
+    <table class="discountCalculator">
+      <tbody>
+        <tr>
+          <td>Bill amount</td>
+        </tr>
+        <tr>
+          <td>
+            <input type="number" class="inputFrame">
+          </td>
+        </tr>
+        <tr>
+          <td>Discount Percentage</td>
+        </tr>
+        <tr>
+          <td>
+            <input type="number" class="inputFrame" >
+          </td>
+        </tr>
+        <tr>
+        <td><button type="button"  class="button" >Calculate </button> </td>
+        </tr>
+        <tr>
+          <td> Total Discount Amount</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
